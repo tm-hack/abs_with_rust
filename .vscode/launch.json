@@ -1,0 +1,235 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'abs'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=abs"
+                ],
+                "filter": {
+                    "name": "abs",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'main'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=main",
+                    "--package=abs"
+                ],
+                "filter": {
+                    "name": "main",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'main'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=main",
+                    "--package=abs"
+                ],
+                "filter": {
+                    "name": "main",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'abc085c'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=abc085c",
+                    "--package=abs"
+                ],
+                "filter": {
+                    "name": "abc085c",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'abc081b'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=abc081b",
+                    "--package=abs"
+                ],
+                "filter": {
+                    "name": "abc081b",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'abc086a'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=abc086a",
+                    "--package=abs"
+                ],
+                "filter": {
+                    "name": "abc086a",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'abc083b'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=abc083b",
+                    "--package=abs"
+                ],
+                "filter": {
+                    "name": "abc083b",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'abc087b'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=abc087b",
+                    "--package=abs"
+                ],
+                "filter": {
+                    "name": "abc087b",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'abc088b'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=abc088b",
+                    "--package=abs"
+                ],
+                "filter": {
+                    "name": "abc088b",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'abc085b'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=abc085b",
+                    "--package=abs"
+                ],
+                "filter": {
+                    "name": "abc085b",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'abc081a'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=abc081a",
+                    "--package=abs"
+                ],
+                "filter": {
+                    "name": "abc081a",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'practicea'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=practicea",
+                    "--package=abs"
+                ],
+                "filter": {
+                    "name": "practicea",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
